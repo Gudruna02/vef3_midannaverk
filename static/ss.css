@@ -1,0 +1,124 @@
+body {
+    font-family: sans-serif;
+    max-width: 50em;
+    margin: 0 auto;
+    color:white;
+    background:linear-gradient(to right, black,crimson,crimson,crimson,black);
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+footer{
+    padding: 1em;
+}
+
+.navy {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+    background: linear-gradient(black,crimson,black);
+}
+
+.navy a {
+    text-decoration: none;
+    color: white;
+    padding: .5em 2em;
+    text-align: center;
+}
+
+.navy a:hover{
+    text-decoration: none;
+    color: white;
+    padding: .5em 2em;
+    text-align: center;
+    background-color: black;
+}
+
+.box a, .goto a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right,pink, crimson,pink);
+    padding: .5em;
+    text-align: center;
+}
+
+.box a:hover, .goto a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right,#ff9faf, #dd0833,#ff9faf);
+    padding: .5em;
+    text-align: center;
+}
+
+.box {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1em;
+}
+
+.box img {
+    height: 6em;
+    height: 6em;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+table {
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 100%;
+}
+table a{
+    text-decoration: none;
+    color: rgb(255, 248, 151);
+}
+
+table a:visited{
+    text-decoration: none;
+    color: rgb(91, 0, 119);
+}
+
+div {
+    text-align: center;
+}
+
+td, th {
+    border: 1.5px solid black;
+    text-align: left;
+    padding: 8px;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background: rgb(255, 66, 66);
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+.kort {
+    max-width: 25em;
+    margin: 1em auto;
+    padding: 0 1em;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background: rgb(131, 189, 255);
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
